@@ -3,8 +3,6 @@
   (:require [client.lib :as lib]
             [hsl.core :refer [hsl]]))
 
-(enable-console-print!)
-
 (println "Loading main.cljs")
 
 (def npm-hsl (js/require "hsl"))
@@ -15,12 +13,13 @@
   (println "Trying npm" (hsl 10 20 30 0.3))
   (set! js/document.body.innerHTML lib/lib-data))
 
-(defn main! []
-  (println "Page loaded!")
-  (render!))
+(defn init []
+  (println "init"))
 
-(defn on-jsload! []
-  (println "Code updated!")
-  (render!))
+(defn start []
+  (println "start")
+  (render!)
+  {::app true})
 
-(set! (.-onload js/window) on-jsload!)
+(defn stop [app]
+  (prn [:stop app]))
