@@ -8,12 +8,12 @@ module.exports = {
     main: "./lib/page.js"
   },
   devServer: {
-    hot: true,
-    contentBase: resolve(__dirname),
+    stats: 'errors-only',
+    contentBase: resolve(__dirname, 'dist'),
     publicPath: "/"
   },
   output: {
-    path: path.join(__dirname),
+    path: path.join(__dirname, 'dist'),
     filename: "[name].js"
   },
   module: {

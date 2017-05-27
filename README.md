@@ -6,16 +6,28 @@ ClojureScript HMR with Webpack
 
 ### Guide
 
+* Development
+
 ```bash
 yarn
-yarn run cljs
+yarn cljs
 # use another terminal
-yarn run dev
+yarn dev
 # use another terminal
 open http://localhost:8080
 ```
 
 Edit `src/client/lib.cljs` to see hot replacing.
+
+* Build
+
+```bash
+yarn cljs-once
+```
+
+Find built assets in `dist/`.
+
+> In real-world projects, you may need to config externs to make `:advanced` mode work.
 
 ### License
 

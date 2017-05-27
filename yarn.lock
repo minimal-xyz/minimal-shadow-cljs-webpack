@@ -1807,15 +1807,15 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
 
-shadow-cljs-jar@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.3.0.tgz#5c747601e86cc8ea439acfbeaee41cc68fc9114c"
+shadow-cljs-jar@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.4.0.tgz#88cd4d0af7199abfd85add1f06eba679512d6a17"
 
-shadow-cljs@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.5.0.tgz#dd09cae5a2805c92df94464ad402ff0590d8392d"
+shadow-cljs@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.6.0.tgz#4fc78b753ad5041fbd89d2dcfd397084c4adc334"
   dependencies:
-    shadow-cljs-jar "^0.3.0"
+    shadow-cljs-jar "^0.4.0"
 
 signal-exit@^3.0.0:
   version "3.0.2"
@@ -2029,7 +2029,7 @@ type-is@~1.6.15:
     media-typer "0.3.0"
     mime-types "~2.1.15"
 
-uglify-js@^2.8.5:
+uglify-js@^2.8.27:
   version "2.8.27"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.8.27.tgz#47787f912b0f242e5b984343be8e35e95f694c9c"
   dependencies:
@@ -2168,9 +2168,9 @@ webpack-sources@^0.2.3:
     source-list-map "^1.1.1"
     source-map "~0.5.3"
 
-webpack@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-2.5.1.tgz#61742f0cf8af555b87460a9cd8bba2f1e3ee2fce"
+webpack@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-2.6.1.tgz#2e0457f0abb1ac5df3ab106c69c672f236785f07"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
@@ -2189,7 +2189,7 @@ webpack@^2.5.1:
     source-map "^0.5.3"
     supports-color "^3.1.0"
     tapable "~0.2.5"
-    uglify-js "^2.8.5"
+    uglify-js "^2.8.27"
     watchpack "^1.3.1"
     webpack-sources "^0.2.3"
     yargs "^6.0.0"
