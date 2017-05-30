@@ -1,16 +1,18 @@
 
 (ns client.main
   (:require [client.lib :as lib]
-            [hsl.core :refer [hsl]]))
+            [hsl.core :as hsl-core]
+            ["hsl" :as npm-hsl]))
+
+; for requiring npm package
+; https://github.com/thheller/shadow-cljs/issues/10#issuecomment-302373576
 
 (println "Loading main.cljs")
 
-(def npm-hsl (js/require "hsl"))
-
 (defn render! []
   (println lib/lib-data)
-  (println "Trying jar" (hsl 10 20 30 0.3))
-  (println "Trying npm" (hsl 10 20 30 0.3))
+  (println "Trying jar" (hsl-core/hsl 10 20 30 0.3))
+  (println "Trying npm" (npm-hsl.hsl 10 20 30 0.3))
   (set! js/document.body.innerHTML lib/lib-data))
 
 (defn init []
