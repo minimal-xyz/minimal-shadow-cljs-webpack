@@ -10,7 +10,7 @@ ClojureScript HMR with Webpack
 
 ```bash
 yarn
-yarn cljs
+yarn cljs # this process will become a CLJS REPL
 # use another terminal
 yarn dev
 # use another terminal

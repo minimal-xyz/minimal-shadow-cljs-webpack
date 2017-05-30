@@ -1,0 +1,4 @@
+[{:id :npm
+  :target :npm-module
+  :output-dir "compiled"
+  :runtime :browser}]
