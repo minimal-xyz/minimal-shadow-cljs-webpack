@@ -17,7 +17,9 @@ module.exports = {
     filename: "[name].js"
   },
   module: {
-    rules: []
+    rules: [
+      {test: /\.css$/, loaders: ['style-loader', 'css-loader']}
+    ]
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
