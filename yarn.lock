@@ -2255,6 +2255,10 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
+readline-sync@^1.4.7:
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/readline-sync/-/readline-sync-1.4.7.tgz#001bfdd4c06110c3c084c63bf7c6a56022213f30"
+
 reduce-css-calc@^1.2.6:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/reduce-css-calc/-/reduce-css-calc-1.3.0.tgz#747c914e049614a4c9cfbba629871ad1d2927716"
@@ -2455,15 +2459,17 @@ sha.js@^2.4.0, sha.js@^2.4.8:
   dependencies:
     inherits "^2.0.1"
 
-shadow-cljs-jar@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.4.0.tgz#88cd4d0af7199abfd85add1f06eba679512d6a17"
-
-shadow-cljs@^0.7.0:
+shadow-cljs-jar@^0.7.0:
   version "0.7.0"
-  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.7.0.tgz#6809f59a5a3e2886844d78e946b60cd7367dcfc2"
+  resolved "https://registry.yarnpkg.com/shadow-cljs-jar/-/shadow-cljs-jar-0.7.0.tgz#a2b35c680be6420c20600402db791790d0e116ae"
+
+shadow-cljs@^0.9.4:
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/shadow-cljs/-/shadow-cljs-0.9.4.tgz#c45a0c5f22a57d77771c517e128da61e1340adba"
   dependencies:
-    shadow-cljs-jar "^0.4.0"
+    mkdirp "^0.5.1"
+    readline-sync "^1.4.7"
+    shadow-cljs-jar "^0.7.0"
 
 signal-exit@^3.0.0:
   version "3.0.2"

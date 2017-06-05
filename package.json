@@ -5,29 +5,17 @@
   "main": "",
   "scripts": {
     "dev": "webpack-dev-server --hot-only",
-    "cljs-once": "shadow-cljs --release",
-    "cljs": "shadow-cljs --dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cljs-once": "shadow-cljs -b app --release",
+    "cljs": "shadow-cljs -b app --dev"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.28.4",
-    "shadow-cljs": "^0.7.0",
+    "shadow-cljs": "^0.9.4",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
-  },
-  "shadow-cljs": {
-    "source-paths": [
-      "src"
-    ],
-    "dependencies": [
-      [
-        "mvc-works/hsl",
-        "0.1.2"
-      ]
-    ]
   },
   "dependencies": {
     "hsl": "^0.1.1"

@@ -1,8 +1,8 @@
 
-ClojureScript HMR with Webpack
+ClojureScript HMR with Webpack based on [shadow-cljs](https://github.com/thheller/shadow-cljs/wiki/ClojureScript-for-JS-Devs)
 ---
 
-> Prototype, based on [shadow-cljs](https://github.com/thheller/shadow-cljs/wiki/ClojureScript-for-JS-Devs)
+> It's also possible to do HMR with shadow-cljs alone, but using Webpack for more features.
 
 ### Guide
 

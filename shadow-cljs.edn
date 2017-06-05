@@ -1,4 +1,5 @@
-[{:id :npm
-  :target :npm-module
-  :output-dir "compiled"
-  :runtime :browser}]
+
+{:source-paths ["src"]
+ :dependencies [[mvc-works/hsl "0.1.2"]]
+ :builds {:app {:target :npm-module
+                :output-dir "compiled/"}}}
