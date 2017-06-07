@@ -11,7 +11,7 @@ module.exports = {
     contentBase: resolve(__dirname, 'dist'),
     publicPath: '/'
   },
-  devtool: 'source-map',
+  // devtool: 'source-map',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: '[name].js'
@@ -19,11 +19,11 @@ module.exports = {
   module: {
     rules: [
       { test: /\.css$/, loaders: ['style-loader', 'css-loader'] },
-      {
-        test: /\.js$/,
-        loader: 'source-map-loader',
-        options: { enforce: 'pre' }
-      }
+      // {
+      //   test: /\.js$/,
+      //   loader: 'source-map-loader',
+      //   options: { enforce: 'pre' }
+      // }
     ]
   },
   plugins: [
