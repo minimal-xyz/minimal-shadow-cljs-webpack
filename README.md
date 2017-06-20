@@ -10,9 +10,9 @@ ClojureScript HMR with Webpack based on [shadow-cljs](https://github.com/thhelle
 
 ```bash
 yarn
-yarn cljs # this process will become a CLJS REPL
+yarn watch # this process will become a CLJS REPL
 # use another terminal
-yarn dev
+yarn dev # start webpack-dev-server
 # use another terminal
 open http://localhost:8080
 ```
@@ -22,7 +22,7 @@ Edit `src/client/lib.cljs` to see hot replacing.
 * Build
 
 ```bash
-yarn cljs-once
+yarn build
 ```
 
 Find built assets in `dist/`.
