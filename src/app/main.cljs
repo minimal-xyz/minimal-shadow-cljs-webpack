@@ -1,6 +1,6 @@
 
-(ns client.main
-  (:require [client.lib :as lib]
+(ns app.main
+  (:require [app.lib :as lib]
             [hsl.core :as hsl-core]
             ["hsl" :as npm-hsl]))
 

@@ -17,7 +17,7 @@ yarn dev # start webpack-dev-server
 open http://localhost:8080
 ```
 
-Edit `src/client/lib.cljs` to see hot replacing.
+Edit `src/app/lib.cljs` to see hot replacing.
 
 * Build
 
