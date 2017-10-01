@@ -10,9 +10,11 @@ ClojureScript HMR with Webpack based on [shadow-cljs](https://github.com/thhelle
 
 ```bash
 yarn
-yarn watch # this process will become a CLJS REPL
+yarn shadow-cljs watch app
+
 # use another terminal
 yarn dev # start webpack-dev-server
+
 # use another terminal
 open http://localhost:8080
 ```

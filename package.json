@@ -14,7 +14,7 @@
   "devDependencies": {
     "css-loader": "^0.28.5",
     "http-server": "^0.10.0",
-    "shadow-cljs": "^0.18.7",
+    "shadow-cljs": "^2.0.2",
     "source-map-loader": "^0.2.1",
     "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
