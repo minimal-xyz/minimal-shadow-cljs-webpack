@@ -3,3 +3,4 @@ node_modules/
 target/
 compiled/
 dist/*.js
+.shadow-cljs

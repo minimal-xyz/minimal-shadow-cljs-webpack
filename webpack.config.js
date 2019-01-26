@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     main: './lib/page.js'
   },
+  mode: 'development',
   devServer: {
     stats: 'errors-only',
     contentBase: resolve(__dirname, 'dist'),
