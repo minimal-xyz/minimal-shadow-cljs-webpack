@@ -12,14 +12,15 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "css-loader": "^3.0.0",
-    "http-server": "^0.11.0",
-    "shadow-cljs": "^2.8.40",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "http-server": "^0.12.3",
+    "shadow-cljs": "^2.8.109",
     "source-map-loader": "^0.2.4",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5",
-    "webpack-dev-server": "^3.7.2"
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
     "hsl": "^0.1.1"
