@@ -2,4 +2,5 @@
 {:source-paths ["src"]
  :dependencies [[mvc-works/hsl "0.1.2"]]
  :builds {:app {:target :npm-module
+                :entries [app.lib app.main]
                 :output-dir "compiled/"}}}
