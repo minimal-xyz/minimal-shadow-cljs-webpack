@@ -18,7 +18,7 @@
     "shadow-cljs": "^2.9.10",
     "source-map-loader": "^1.0.0",
     "style-loader": "^1.2.1",
-    "webpack": "^5.94.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^5.2.1"
   },
