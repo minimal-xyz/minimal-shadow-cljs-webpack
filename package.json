@@ -20,7 +20,7 @@
     "style-loader": "^1.2.1",
     "webpack": "^5.104.1",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^5.2.4"
+    "webpack-dev-server": "^5.2.5"
   },
   "dependencies": {
     "hsl": "^0.1.1"
